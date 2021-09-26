@@ -24,15 +24,15 @@ const Person = (props) => {
               onClick={() => props.handleAddIntelligent(props.person)}
               className="btn btn-primary"
             >
-              <i class="fas fa-list"></i> Add Intelligent
+              <i className="fas fa-list"></i> Add Intelligent
             </button>
           </div>
           <div className="social d-flex justify-content-around mt-2">
             <a href="/profile">
-              <i class="fas fa-user social-icon"></i>
+              <i className="fas fa-user social-icon"></i>
             </a>
             <a href="/linkedin">
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
         </div>
