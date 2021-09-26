@@ -9,10 +9,6 @@ const Cart = (props) => {
   for (const person of cart) {
     total = total + person.salary;
   }
-  // let name = "";
-  // for (const person of cart) {
-  //   name = name + person.name;
-  // }
   return (
     <>
       <div className="cart-area">

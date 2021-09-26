@@ -3,7 +3,7 @@ import "./Person.css";
 
 const Person = (props) => {
   // Data Destructuring
-  const { name, title, salary, age, img } = props.person;
+  const { name, title, salary, age, img, group } = props.person;
 
   // retrun the function
   return (
@@ -18,6 +18,7 @@ const Person = (props) => {
           <h2 className="text-center">{name}</h2>
           <p>Title: {title}</p>
           <p>Age: {age}</p>
+          <p>Group: {group} </p>
           <p>Salary: {salary}</p>
           <div className="text-center">
             <button
